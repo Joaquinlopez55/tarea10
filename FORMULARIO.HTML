@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOLICITAR TURNO</title>
+    <link rel="stylesheet" href="./CSS/styles.css">
+</head>
+<body>
+    <h1>SACA TU TURNO</h1>
+    <header class="nav">
+    <nav>
+        <ul>
+    <li class="navbarItems"> <a href="./index.html" target="_parent">Menu principal</a></li>
+       <li class="navbarlist"> <a href="./CONOCENOS.HTML" target="_blank">¿QUIENES SOMOS?</a> </li>
+    </ul>
+    </nav>
+</header>
+<br>
+<main>
+    <form class="prueba estiloletras" action="">
+        Escriba su nombre
+        <input type="text" name="Nombre y Apellido" placeholder="Nombre y Apellido" required class="ancho">
+        <br>
+        Eliga fecha
+        <input type="date" class="ancho">
+        <br>
+        Eliga horario
+        <input type="time" class="ancho">
+        <br>
+        Eliga especialidad
+        <select id="especialidad" name="especialidad" class="ancho">
+            <option value="seleccione una opcion" hidden>Seleccione una especialidad</option>
+        	<option value="Osteo">Osteopatia</option>
+        	<option value="Puncion seca">Puncion seca</option>
+        	<option value="Cupping">Cupping</option>
+        	<option value="Fisioterapia">Fisioterapia</option>
+        	<option value="MEP">MEP</option>
+            <option value="Plantillas">Plantillas</option>
+            <input type="submit" value="Enviar">
+    </form>
+</main>
+<br>
+<footer class="estilofooter">Kinesiologia/Fisiatria
+</footer>
+</body>
+</html>
